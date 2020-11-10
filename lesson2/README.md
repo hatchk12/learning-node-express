@@ -34,7 +34,7 @@ npm init
 Like the first lesson, we'll answer these questions:
 
 ```
-package name: (lesson2)
+package name: (backend) lesson2
 version: (1.0.0)
 description: help ticket server
 entry point: (index.js)
@@ -62,7 +62,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 ```
 
-This includes the modules we're using and initializes them.
+This includes the modules we're using and initializes them. Add all of the following code in the order given unless otherwise specified.
 
 ```
 app.use(express.static('public'));
